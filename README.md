@@ -1,18 +1,12 @@
-<p align="center">
-  <img alt="Python Version" src="https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white">
-  <img alt="scikit-learn" src="https://img.shields.io/badge/scikit--learn-1.3%2B-F7931E?logo=scikitlearn&logoColor=white">
-  <img alt="XGBoost" src="https://img.shields.io/badge/XGBoost-2.x-EB5E28">
-  <img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-2.x-EE4C2C?logo=pytorch&logoColor=white">
-  <img alt="Transformers" src="https://img.shields.io/badge/Transformers-4.30%2B-FFD21E">
-  <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-green">
-  <img alt="Platform" src="https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey">
-</p>
+![Python Version](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-1.3%2B-F7931E?logo=scikitlearn&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-2.x-EB5E28)
+![PyTorch](https://img.shields.io/badge/PyTorch-2.x-EE4C2C?logo=pytorch&logoColor=white)
+![Transformers](https://img.shields.io/badge/Transformers-4.30%2B-FFD21E)
+![License: MIT](https://img.shields.io/badge/License-MIT-green)
+![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey)
 
-<p align="center">
-  <b>MailMind – Intelligent Email Category Classification</b>
-</p>
-
----
+### MailMind – Intelligent Email Category Classification
 
 MailMind is a production‑oriented machine learning project that **classifies Turkish emails into meaningful categories** (e.g. İş/Acil, Güvenlik/Uyarı, Pazarlama, Sosyal Medya, Spam, Abonelik/Fatura, Kişisel, Eğitim/Öğretim, Sağlık, Diğer).
 
@@ -335,6 +329,3 @@ label, probs = tahmin_yap(subject, body)
 
 This project is licensed under the **MIT License**.  
 See the `LICENSE` file for full text.
-
-#   m a i l m i n d - m o d e l  
- 
