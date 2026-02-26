@@ -275,6 +275,34 @@ For detailed instructions, see `mail_classifier_tester/README.md`. In summary:
 
 ---
 
+## Evaluation & Example Results
+
+After training, the project automatically generates several evaluation artifacts under the project root and `model_result/`:
+
+- **Normalized Confusion Matrix (best model)**  
+  Overall view of how well each class is separated:
+
+  ![Confusion Matrix (Linear SVM)](confusion_matrix_advanced.png)
+
+- **Model Comparison (F1‑Macro)**  
+  Bar plot comparing candidate models:
+
+  ![Model Comparison by F1-Macro](model_result/model_comparison_f1_macro.png)
+
+- **Per-Class F1 Scores**  
+  Breakdown of F1 scores per category:
+
+  ![Per-Class F1 Scores](model_result/per_class_f1.png)
+
+- **Tabular Reports (for further analysis)**  
+  - `model_result/classification_report.csv` / `.json`
+  - `model_result/model_comparison_metrics.csv` / `.json`
+  - `model_result/confusion_matrix_raw.csv`
+
+These artifacts make it easy to inspect performance, debug misclassifications and include visuals in presentations or reports.
+
+---
+
 ## Configuration
 
 Key configuration is in `mail_classifier_model/config.py`:
